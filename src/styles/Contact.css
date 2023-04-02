@@ -1,0 +1,17 @@
+.contact__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 35px;
+    margin: 6em;
+}
+
+@media (max-width: 768px) {
+    .contact__container {
+      padding: 10px;
+      margin: 2em;
+    }
+  }
+  

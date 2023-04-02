@@ -1,0 +1,36 @@
+.excard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: auto;
+}
+
+.ex__image {
+    width: 120px;
+    height: 150px;
+    padding: 20px 0;
+}
+
+p {
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .excard {
+      width: 90%;
+      padding: 10px;
+    }
+  
+    .ex__image {
+      width: 80px;
+      height: 100px;
+      padding: 10px 0;
+    }
+  
+    p {
+      padding: 5px;
+    }
+  }
+  
