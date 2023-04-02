@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolioV2/static/css/main.a460d1e0.css",
+    "main.js": "/portfolioV2/static/js/main.6b89aa25.js",
+    "static/media/koralWebsite.png": "/portfolioV2/static/media/koralWebsite.0cc7b68ceccf9fcb5aab.png",
+    "static/media/Logo_1.jpg": "/portfolioV2/static/media/Logo_1.edd42d4d6b0be93cecf5.jpg",
+    "static/media/JDMHiroMockup.png": "/portfolioV2/static/media/JDMHiroMockup.af2729b296728cd776f9.png",
+    "static/media/tempHome.png": "/portfolioV2/static/media/tempHome.525012771c4f112a7f68.png",
+    "static/media/EState.png": "/portfolioV2/static/media/EState.ac95daaadfa9b180c04e.png",
+    "static/media/DiscoverAI.png": "/portfolioV2/static/media/DiscoverAI.ca5da353e1a65d826320.png",
+    "static/media/MercedesThree.png": "/portfolioV2/static/media/MercedesThree.a5d7f2750ee0cfab67d3.png",
+    "static/media/MedologySnip.png": "/portfolioV2/static/media/MedologySnip.b734ebcc04c2de9f50ac.png",
+    "static/media/Nicolas_Rodriguez_Resume.pdf": "/portfolioV2/static/media/Nicolas_Rodriguez_Resume.83b7bccba89d77707c06.pdf",
+    "index.html": "/portfolioV2/index.html",
+    "main.a460d1e0.css.map": "/portfolioV2/static/css/main.a460d1e0.css.map",
+    "main.6b89aa25.js.map": "/portfolioV2/static/js/main.6b89aa25.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a460d1e0.css",
+    "static/js/main.6b89aa25.js"
+  ]
+}
