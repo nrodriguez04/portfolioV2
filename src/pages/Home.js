@@ -7,7 +7,7 @@ import '../styles/Home.css'
 
 //Image imports
 //import profileImg from '../assets/headshot.png'
-import tempHome from '../assets/tempHome.png'
+import tempHome from '../assets/homeImage.png'
 
 //Icon imports
 import { BsFillPinMapFill } from 'react-icons/bs' 
