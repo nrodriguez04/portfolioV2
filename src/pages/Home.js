@@ -30,7 +30,7 @@ const Home = () => {
       <h1>Nicolas Rodriguez</h1>
       <h5>Software Engineer | Developer</h5>
       <p><BsFillPinMapFill /> Dallas, TX</p>
-      <p>My name is Nick. I am a Software Engineer/Developer currently located in Texas. My coding journey started in 2018 through self-learning with
+      <p>My name is Nick. I am a Software Engineer currently located in Texas. My coding journey started in 2018 through self-learning with
       YouTube and Codecademy. In 2019 I attended Thinkful's Full Stack Flex coding bootcamp. In 2021 I decided to return to school and graduated with an 
       associate of arts in Computer Science from Trinity Valley Community College. After completing my associate degree, 
       I transferred to Florida International University to pursue my bachlelor of arts in Computer Science. I am currently a Junior at FIU and plan on 
