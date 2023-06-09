@@ -6,10 +6,10 @@ import { AnimatePresence } from 'framer-motion';
 import '../styles/Navbar.css';
 
 //Icon imports
-import { FaFileDownload, FaBars } from 'react-icons/fa';
+import { FaBars } from 'react-icons/fa';
 
 //Component Imports
-import Resume from '../assets/Nicolas_Rodriguez_Resume.pdf';
+// import Resume from '../assets/Nicolas_Rodriguez_Resume.pdf';
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -30,9 +30,6 @@ const Navbar = () => {
           <FaBars />
         </button>
         <div className={`nav__links ${mobileMenuOpen ? 'open' : ''}`}>
-          <a href={Resume} download className="resume__button">
-            Resumé<FaFileDownload className="file" />
-          </a>
           <nav>
             <Link to="/">Home</Link>
             <Link to="/experience">Experience</Link>
