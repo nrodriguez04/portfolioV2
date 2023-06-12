@@ -38,7 +38,7 @@ const Navbar = () => {
             <Link to="/experience" onClick={handleLinkClick}>Experience</Link>
             <Link to="/projects" onClick={handleLinkClick}>Projects</Link>
             <Link to="/certifications" onClick={handleLinkClick}>Certifications</Link>
-            <Link onClick={handleLinkClick}><a href="https://nickfrmtech.blogspot.com/" target='_blank' rel='noreferrer'>Blog</a></Link>
+            <a href="https://nickfrmtech.blogspot.com/" target='_blank' rel='noreferrer' onClick={handleLinkClick}>Blog</a>
             <Link to="/contact" onClick={handleLinkClick}>Contact</Link>
           </nav>
         </div>

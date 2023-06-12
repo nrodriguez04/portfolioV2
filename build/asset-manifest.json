@@ -1,22 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.a460d1e0.css",
-    "main.js": "/static/js/main.dd1c644f.js",
+    "main.css": "/static/css/main.98ee6791.css",
+    "main.js": "/static/js/main.544cfa8b.js",
+    "static/media/PortfolioPicEdit2.png": "/static/media/PortfolioPicEdit2.3743317de1c8b135135e.png",
     "static/media/koralWebsite.png": "/static/media/koralWebsite.0cc7b68ceccf9fcb5aab.png",
     "static/media/Logo_1.jpg": "/static/media/Logo_1.edd42d4d6b0be93cecf5.jpg",
     "static/media/JDMHiroMockup.png": "/static/media/JDMHiroMockup.af2729b296728cd776f9.png",
-    "static/media/tempHome.png": "/static/media/tempHome.525012771c4f112a7f68.png",
+    "static/media/MinatoMockup.png": "/static/media/MinatoMockup.6aa691832ced5cbae89c.png",
     "static/media/EState.png": "/static/media/EState.ac95daaadfa9b180c04e.png",
+    "static/media/DSProject.png": "/static/media/DSProject.4ef638e3764737fe42bf.png",
+    "static/media/ForbesEDA.png": "/static/media/ForbesEDA.de6348cc48a9c445863d.png",
+    "static/media/artificial-intelligence-how-it-works-and-its-impact.png": "/static/media/artificial-intelligence-how-it-works-and-its-impact.dff7e615128b7746433e.png",
+    "static/media/thinking-and-communicating-with-data.png": "/static/media/thinking-and-communicating-with-data.7240328b4b39d47b477d.png",
     "static/media/DiscoverAI.png": "/static/media/DiscoverAI.ca5da353e1a65d826320.png",
-    "static/media/MercedesThree.png": "/static/media/MercedesThree.a5d7f2750ee0cfab67d3.png",
-    "static/media/MedologySnip.png": "/static/media/MedologySnip.b734ebcc04c2de9f50ac.png",
-    "static/media/Nicolas_Rodriguez_Resume.pdf": "/static/media/Nicolas_Rodriguez_Resume.83b7bccba89d77707c06.pdf",
+    "static/media/Nicolas_Rodriguez_Resume.pdf": "/static/media/Nicolas_Rodriguez_Resume.ac322cab5343f86c9720.pdf",
+    "static/media/HUGO.png": "/static/media/HUGO.d1429ca11ff2c138882a.png",
+    "static/media/Language_Lasso.png": "/static/media/Language_Lasso.8af8ec60cb9f737a8d9a.png",
+    "static/media/AI4All.jpg": "/static/media/AI4All.00f9b2db23d2bc9d5a0b.jpg",
     "index.html": "/index.html",
-    "main.a460d1e0.css.map": "/static/css/main.a460d1e0.css.map",
-    "main.dd1c644f.js.map": "/static/js/main.dd1c644f.js.map"
+    "main.98ee6791.css.map": "/static/css/main.98ee6791.css.map",
+    "main.544cfa8b.js.map": "/static/js/main.544cfa8b.js.map"
   },
   "entrypoints": [
-    "static/css/main.a460d1e0.css",
-    "static/js/main.dd1c644f.js"
+    "static/css/main.98ee6791.css",
+    "static/js/main.544cfa8b.js"
   ]
 }
