@@ -8,9 +8,6 @@ import '../styles/Navbar.css';
 //Icon imports
 import { FaBars } from 'react-icons/fa';
 
-//Component Imports
-// import Resume from '../assets/Nicolas_Rodriguez_Resume.pdf';
-
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -18,11 +15,17 @@ const Navbar = () => {
     setMobileMenuOpen(!mobileMenuOpen);
   };
 
+  const handleLinkClick = () => {
+    if(mobileMenuOpen) {
+      handleMenuToggle();
+    }
+  };
+
   return (
     <AnimatePresence mode="wait">
       <div className="nav__container">
         <div>
-          <Link to="/" className="name_logo">
+          <Link to="/" className="name_logo" onClick={handleLinkClick}>
             Nicolas Rodriguez
           </Link>
         </div>
@@ -31,12 +34,12 @@ const Navbar = () => {
         </button>
         <div className={`nav__links ${mobileMenuOpen ? 'open' : ''}`}>
           <nav>
-            <Link to="/">Home</Link>
-            <Link to="/experience">Experience</Link>
-            <Link to="/projects">Projects</Link>
-            <Link to="/certifications">Certifications</Link>
-            <Link><a href="https://nickfrmtech.blogspot.com/" target='_blank' rel='noreferrer'>Blog</a></Link>
-            <Link to="/contact">Contact</Link>
+            <Link to="/" onClick={handleLinkClick}>Home</Link>
+            <Link to="/experience" onClick={handleLinkClick}>Experience</Link>
+            <Link to="/projects" onClick={handleLinkClick}>Projects</Link>
+            <Link to="/certifications" onClick={handleLinkClick}>Certifications</Link>
+            <Link onClick={handleLinkClick}><a href="https://nickfrmtech.blogspot.com/" target='_blank' rel='noreferrer'>Blog</a></Link>
+            <Link to="/contact" onClick={handleLinkClick}>Contact</Link>
           </nav>
         </div>
       </div>
