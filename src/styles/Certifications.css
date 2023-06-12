@@ -45,14 +45,26 @@
 }
 
 .button, .button-card {
-  padding: 20px;
-  background-color: #4E9CAF;
-  color: white;
-  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 8rem;
+  height: 3rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: .3s ease;
+  background-color: #73afe0; 
+  color: white; 
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); 
+  margin: 10px;
   border: none;
-  margin: 20px auto;
-  width: auto;
-  font-size: 14px;
+  text-align: center; /* to make sure text is centered */
+}
+
+.button:hover {
+  background-color: #3134d3; 
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); 
+  transform: scale(1.05); 
 }
 
 @media (max-width: 768px) {

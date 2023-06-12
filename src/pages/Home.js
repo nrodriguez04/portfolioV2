@@ -30,17 +30,19 @@ const Home = () => {
       <h1>Nicolas Rodriguez</h1>
       <h5>Software Engineer | Developer</h5>
       <p><BsFillPinMapFill /> Dallas, TX</p>
-      <p>My name is Nick. I am a Software Engineer currently located in Texas. My coding journey started in 2018 through self-learning with
-      YouTube and Codecademy. In 2019 I attended Thinkful's Full Stack Flex coding bootcamp. In 2021 I decided to return to school and graduated with an 
-      associate of arts in Computer Science from Trinity Valley Community College. After completing my associate degree, 
-      I transferred to Florida International University to pursue my bachlelor of arts in Computer Science. I am currently a Junior at FIU and plan on 
-      graduating in the Summer of 2024. I am currently open to new opportunities.</p>
-      <div className="link__container">
+      <p>Hello, I'm Nick, a dedicated Software Engineer based in Texas. My fascination with coding ignited in 2018, sparked by self-study initiatives on platforms such as YouTube and Codecademy. Keen to further enhance my skillset, I enrolled in Thinkful's Full Stack Flex coding bootcamp in 2019.</p>
+
+      <p>In 2021, my commitment to professional growth led me back to the academic world, where I earned an Associate of Arts in Computer Science from Trinity Valley Community College. Presently, I'm broadening my knowledge base at Florida International University, pursuing a Bachelor of Arts in Computer Science. As a Junior, I'm enthusiastically anticipating my graduation in the summer of 2024.</p>
+      
+      <p>With an insatiable curiosity for learning and a passion for problem-solving, I am actively exploring new opportunities to apply and expand my technical abilities.</p>
+      
+      <p>Feel free to reach out if you believe we could create something impactful together.</p>
+      <div className="button-container">
       <a href={Resume} download className="resume__button">
-        <button className="button"><FaFileDownload className="file"/> Resumé</button>
+        <button className="home-button"><FaFileDownload className="file"/> Resumé</button>
       </a>
       <Link to="/projects">
-        <button className="button">Portfolio</button>
+        <button className="home-button">Portfolio</button>
       </Link>
       </div>
       </div>

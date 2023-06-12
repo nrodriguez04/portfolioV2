@@ -42,15 +42,38 @@ h5 {
     margin: 0 0 10px 10px;
 }
 
-.button {
-    padding: 20px;
-    background-color: #4E9CAF;
-    color: white;
-    border-radius: 5px;
-    border: none;
-    margin: 20px;
-    width: 200px;
-    font-size: 14px;
+.button-container {
+  display: flex;
+  justify-content: center; /* This will add space between your buttons */
+  flex-wrap: wrap; /* This allows the items to wrap as needed */
+}
+
+.home-button {
+  width: 8rem;
+  height: 3rem;
+  border-radius: 1rem;
+  justify-self: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: .3s ease;
+  background-color: #73afe0; 
+  color: white; 
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); 
+  margin: 10px;
+  border: none;
+}
+
+.home-button:hover {
+  background-color: #3134d3; 
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); 
+  transform: scale(1.05); 
+}
+
+.file {
+  margin: 3px;
 }
 
 @media (max-width: 768px) {
